@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "avBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "<yourBlobContainer>/{name}",
+      "connection": "<storageAccountConnectionName>"
+    }
+  ],
+  "disabled": false
+}

@@ -1,0 +1,10 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "Microsoft.Bing.Speech": "2.0.2",
+        "microsoft.Azure.DocumentDB": "1.21.1"
+      }
+    }
+   }
+}

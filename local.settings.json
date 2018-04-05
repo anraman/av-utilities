@@ -1,0 +1,31 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    // Custom settings to be added
+    "AudioSegmentBlobContainerName": "<NAME OF BLOB CONTAINER FOR AUDIO SEGMENTS>",
+
+    "CosmosURI": "<URI FOR COSMOS DB>",
+    "CosmosKey": "<COSMOS PRIMARY KEY>",
+    "CosmosDBName": "<COSMOS DB NAME>",
+    "CosmosCollectionName": "<COSMOS DB COLLECTION NAME>",
+
+    "BingSpeechKey": "<BING SPEECH API KEY>",
+    "BingSpeechClientEndpointURL": "wss://speech.platform.bing.com/api/service/recognition/continuous",
+
+    "VideoChunkDurationSecs": "<DESIRED CHUNK LENGTH IN SECONDS>", // Up to 600 (10 minutes) for transcription using Bing Speech
+
+    // Generic settings created with the Function App (values removed)
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "FUNCTION_APP_EDIT_MODE": "readwrite",
+    "AzureWebJobsDashboard": "",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "",
+    "WEBSITE_CONTENTSHARE": "",
+    "oireachtasfunctad3a_STORAGE": "",
+    "AzureWebJobsStorage": "",
+    "WEBSITE_SITE_NAME": ""
+  }
+}

@@ -1,1 +1,2 @@
-# av-utilities
+# AV Utilities
+Utility classes for transforming, segmenting and transcribing audiovisual files using the [Bing Speech to Text Service Library](https://docs.microsoft.com/en-us/azure/cognitive-services/speech/getstarted/getstartedcsharpservicelibrary).

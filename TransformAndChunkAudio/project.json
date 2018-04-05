@@ -1,0 +1,11 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "NAudio": "1.8.4",
+        "Microsoft.Bing.Speech": "2.0.2",
+        "WindowsAzure.Storage":"9.1.0"
+      }
+    }
+   }
+}
